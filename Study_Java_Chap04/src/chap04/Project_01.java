@@ -3,7 +3,7 @@ package chap04;
 public class Project_01 {
 
 	public static void main(String[] args) {
-		System.out.println("¾È³çÇÏ¼¼¿ä");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
 
 	}
 

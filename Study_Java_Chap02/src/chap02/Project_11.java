@@ -8,10 +8,10 @@ public class Project_11 {
 		
 		final double DOLLAR = 1100;
 		
-		System.out.print("ì›í™”ë¥¼ ì…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„ ì›)>> ");
+		System.out.print("¿øÈ­¸¦ ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§ ¿ø)>> ");
 		int won = input.nextInt();
 		
-		System.out.println(won + "ì›ì€ $" + (double)won/DOLLAR + "ì…ë‹ˆë‹¤.");
+		System.out.println(won + "¿øÀº $" + (double)won/DOLLAR + "ÀÔ´Ï´Ù.");
 		
 		
 		

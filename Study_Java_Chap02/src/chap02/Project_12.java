@@ -6,14 +6,14 @@ public class Project_12 {
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("2ìë¦¬ìˆ˜ ì •ìˆ˜ ì…ë ¥(10~99)>>");
+		System.out.print("2ÀÚ¸®¼ö Á¤¼ö ÀÔ·Â(10~99)>>");
 		int num = input.nextInt();
 		
 		if(num%10==num/10) {
-			System.out.println("Yes! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
+			System.out.println("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
 		}
 		else {
-			System.out.println("No! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ì§€ ì•ŠìŠµë‹ˆë‹¤.");
+			System.out.println("No! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°Áö ¾Ê½À´Ï´Ù.");
 		}
 		input.close();
 	}

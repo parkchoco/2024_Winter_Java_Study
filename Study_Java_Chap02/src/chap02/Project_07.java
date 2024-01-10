@@ -6,25 +6,25 @@ public class Project_07 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
+		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
 		int score = input.nextInt();
 		
-		System.out.print("í•™ë…„ì„ ìž…ë ¥í•˜ì„¸ìš”(1~4):");
+		System.out.print("ÇÐ³âÀ» ÀÔ·ÂÇÏ¼¼¿ä(1~4):");
 		int grade = input.nextInt();
 		
 		if(score>=60) {
 			if(grade!=4) {
-				System.out.println("í•©ê²©!");
+				System.out.println("ÇÕ°Ý!");
 			}
 			else if(score>=70) {
-				System.out.println("í•©ê²©!");
+				System.out.println("ÇÕ°Ý!");
 			}
 			else {
-				System.out.println("ë¶ˆí•©ê²©!");
+				System.out.println("ºÒÇÕ°Ý!");
 			}
 		}
 		else
-			System.out.println("ë¶ˆí•©ê²©!");
+			System.out.println("ºÒÇÕ°Ý!");
 		
 		input.close();
 	}

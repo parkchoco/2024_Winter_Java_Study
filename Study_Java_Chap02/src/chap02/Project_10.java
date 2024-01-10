@@ -1,6 +1,6 @@
 package chap02;
 
-//2ì¥ ê°€ìœ„, ë°”ìœ„, ë³´ ê²Œì„
+//2Àå °¡À§, ¹ÙÀ§, º¸ °ÔÀÓ
 
 import java.util.Scanner;
 
@@ -10,44 +10,44 @@ public class Project_10 {
 		
 		int num1=0, num2=0;
 		
-		System.out.println("ê°€ìœ„ë°”ìœ„ë³´ ê²Œì„ì…ë‹ˆë‹¤. ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ì—ì„œ ì…ë ¥í•˜ì„¸ìš”");
+		System.out.println("°¡À§¹ÙÀ§º¸ °ÔÀÓÀÔ´Ï´Ù. °¡À§, ¹ÙÀ§, º¸ Áß¿¡¼­ ÀÔ·ÂÇÏ¼¼¿ä");
 		
-		System.out.print("ì² ìˆ˜ >> ");
+		System.out.print("Ã¶¼ö >> ");
 		String select_1 = input.next();
 		
-		System.out.print("ì˜í¬ >> ");
+		System.out.print("¿µÈñ >> ");
 		String select_2 = input.next();
 		
 		switch(select_1) {
-		case "ê°€ìœ„":
+		case "°¡À§":
 			num1 = 0;
 			break;
-		case "ë°”ìœ„":
+		case "¹ÙÀ§":
 			num1 = 1;
 			break;
-		case "ë³´":
+		case "º¸":
 			num1 = 2;
 		}
 		
 		switch(select_2) {
-		case "ê°€ìœ„":
+		case "°¡À§":
 			num2 = 0;
 			break;
-		case "ë°”ìœ„":
+		case "¹ÙÀ§":
 			num2 = 1;
 			break;
-		case "ë³´":
+		case "º¸":
 			num2 = 2;
 		}
 		
 		if(num1==num2) {
-			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
+			System.out.println("ºñ°å½À´Ï´Ù.");
 		}
 		else if((num1+1)%3==num2) {
-			System.out.println("ì˜í¬ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+			System.out.println("¿µÈñ°¡ ÀÌ°å½À´Ï´Ù.");
 		}
 		else {
-			System.out.println("ì² ìˆ˜ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+			System.out.println("Ã¶¼ö°¡ ÀÌ°å½À´Ï´Ù.");
 		}
 		
 		input.close();

@@ -7,14 +7,14 @@ public class Project_05 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
+		System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
 		int number = input.nextInt();
 		
 		if(number%3==0) {
-			System.out.println("3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
+			System.out.println("3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
 		}
 		else {
-			System.out.println("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
+			System.out.println("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
 		}
 		
 		input.close();

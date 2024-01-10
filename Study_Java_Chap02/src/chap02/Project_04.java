@@ -8,14 +8,14 @@ public class Project_04 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
+		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
 		int score = input.nextInt();
 		
 		if(score>=90) {
-			System.out.println("ì¶•í•˜í•©ë‹ˆë‹¤! í•©ê²©ìž…ë‹ˆë‹¤!");
+			System.out.println("ÃàÇÏÇÕ´Ï´Ù! ÇÕ°ÝÀÔ´Ï´Ù!");
 		}
 		else {
-			System.out.println("ì£„ì†¡í•©ë‹ˆë‹¤. ë¶ˆí•©ê²©ìž…ë‹ˆë‹¤.");
+			System.out.println("ÁË¼ÛÇÕ´Ï´Ù. ºÒÇÕ°ÝÀÔ´Ï´Ù.");
 		}
 		
 		input.close();

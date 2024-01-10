@@ -8,7 +8,7 @@ public class Project_13 {
 		
 		int C50000, C10000, C1000, C100, C50, C10, C1;
 		
-		System.out.print("ê¸ˆì•¡ì„ ì…ë ¥í•˜ì‹œì˜¤>>");
+		System.out.print("±İ¾×À» ÀÔ·ÂÇÏ½Ã¿À>>");
 		int money = input.nextInt();
 		
 		C50000=money/50000;
@@ -26,13 +26,13 @@ public class Project_13 {
 		C1 = money/1;
 		money=money%1;
 		
-		System.out.println("ì˜¤ë§Œì›ê¶Œ " + C50000 + "ë§¤");
-		System.out.println("ë§Œì›ê¶Œ " + C10000 + "ë§¤");
-		System.out.println("ì²œì›ê¶Œ " + C1000 + "ë§¤");
-		System.out.println("ë°±ì› " + C100 + "ë§¤");
-		System.out.println("ì˜¤ì‹­ì› " + C50 + "ë§¤");
-		System.out.println("ì‹­ì› " + C10 + "ë§¤");
-		System.out.println("ì¼ì› " + C1 + "ë§¤");
+		System.out.println("¿À¸¸¿ø±Ç " + C50000 + "¸Å");
+		System.out.println("¸¸¿ø±Ç " + C10000 + "¸Å");
+		System.out.println("Ãµ¿ø±Ç " + C1000 + "¸Å");
+		System.out.println("¹é¿ø " + C100 + "¸Å");
+		System.out.println("¿À½Ê¿ø " + C50 + "¸Å");
+		System.out.println("½Ê¿ø " + C10 + "¸Å");
+		System.out.println("ÀÏ¿ø " + C1 + "¸Å");
 		
 		input.close();
 	}

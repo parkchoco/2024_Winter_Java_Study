@@ -8,23 +8,23 @@ public class Project_09 {
 		
 		int price = 0;
 		
-		System.out.print("ë¬´ìŠ¨ ì»¤í”¼ ë“œë¦´ê¹Œìš”? ");
+		System.out.print("¹«½¼ Ä¿ÇÇ µå¸±±î¿ä? ");
 		String order = input.next();
 		
 		switch(order) {
-		case "ì—ìŠ¤í”„ë ˆì†Œ":
-		case "ì¹´í‘¸ì¹˜ë…¸":
-		case "ì¹´í˜ë¼ë–¼":
+		case "¿¡½ºÇÁ·¹¼Ò":
+		case "Ä«ÇªÄ¡³ë":
+		case "Ä«Æä¶ó¶¼":
 			price = 3500;
 			break;
-		case "ì•„ë©”ë¦¬ì¹´ë…¸":
+		case "¾Æ¸Ş¸®Ä«³ë":
 			price = 2500;
 			break;
 		default:
-			System.out.println("ë©”ë‰´ì— ì—†ìŠµë‹ˆë‹¤!");
+			System.out.println("¸Ş´º¿¡ ¾ø½À´Ï´Ù!");
 		}
 		
-		System.out.println(order + "ëŠ” " + price + "ì›ì…ë‹ˆë‹¤.");
+		System.out.println(order + "´Â " + price + "¿øÀÔ´Ï´Ù.");
 		
 		input.close();
 	}

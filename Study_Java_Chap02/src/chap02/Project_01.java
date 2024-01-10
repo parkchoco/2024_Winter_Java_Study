@@ -9,7 +9,7 @@ public class Project_01 {
 		double CircleArea = radius * radius * PI;
 		
 		System.out.println("원의 면적 = " + CircleArea);
-
+//아니
 	}
 
 }

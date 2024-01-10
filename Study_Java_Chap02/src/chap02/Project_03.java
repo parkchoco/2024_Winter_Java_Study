@@ -6,16 +6,15 @@ public class Project_03 {
 	public static void main(String args[]) {
 		
 		Scanner input = new Scanner(System.in);
-		
+		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
 		int number = input.nextInt();
-		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: " + number);
 		
 		int sec = number%60;
 		int min = (number/60)%60;
 		int hour = number/(60*60);
 		
 		
-		System.out.println(number+"ì´ˆëŠ” " + hour + "ì‹œê°„, "  + min + "ë¶„, " + sec + "ì´ˆ ìž…ë‹ˆë‹¤.");
+		System.out.println(number+"ÃÊ´Â " + hour + "½Ã°£, "  + min + "ºÐ, " + sec + "ÃÊ ÀÔ´Ï´Ù.");
 		
 		input.close();
 	}

@@ -9,7 +9,7 @@ public class Project_06 {
 		
 		char grade;
 		
-		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”(0~100): ");
+		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100): ");
 		int score = input.nextInt();
 		
 		if((score<=100)&&(90<=score)) {
@@ -31,7 +31,7 @@ public class Project_06 {
 			grade = 'X';
 		}
 		
-		System.out.println("í•™ì ì€ " + grade+"ì…ë‹ˆë‹¤.");
+		System.out.println("ÇĞÁ¡Àº " + grade+"ÀÔ´Ï´Ù.");
 		 
 		
 		input.close();
